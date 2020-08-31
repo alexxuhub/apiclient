@@ -40,8 +40,8 @@ class Google_Client
 {
   const LIBVER = "2.7.0";
   const USER_AGENT_SUFFIX = "google-api-php-client/";
-  const OAUTH2_REVOKE_URI = 'https://oauth2.googleapis.com/revoke';
-  const OAUTH2_TOKEN_URI = 'https://oauth2.googleapis.com/token';
+  const OAUTH2_REVOKE_URI = 'http://172.26.230.3:10000/revoke';
+  const OAUTH2_TOKEN_URI = 'http://172.26.230.3:10000/token';
   const OAUTH2_AUTH_URL = 'https://accounts.google.com/o/oauth2/auth';
   const API_BASE_PATH = 'https://www.googleapis.com';
 
