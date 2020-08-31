@@ -30,7 +30,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Google_": "src/"
+            "XDGoogle_": "src/"
         },
         "classmap": [
             "src/Google/Service/"
